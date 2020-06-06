@@ -1,0 +1,63 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /**
+   * Canvas
+   */
+  
+  .heading{
+    text-align: center;
+  } 
+  .whiteboard {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+  
+  .colors {
+    position: fixed;
+  }
+  
+  .color {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+  }
+  
+  .color.black { background-color: black; }
+  .color.red { background-color: red; }
+  .color.green { background-color: green; }
+  .color.blue { background-color: blue; }
+  .color.yellow { background-color: yellow; }
+  .color.orange { background-color: orange; }
+  .color.pink { background-color: pink; }
+  .color.grey { background-color: grey; }
+  .color.purple { background-color: purple; }
+  .color.violet { background-color: violet; }
+  .color.lightgreen { background-color: lightgreen; }
+  .color.beige { background-color: beige; }
+  .color.olive{ background-color: olive; }
+  .color.orchid { background-color: orchid; }
+  .color.lightgrey { background-color: lightgrey; }
+  .color.orangered { background-color: orangered; }
+  .color.peach{ background-color: peachpuff; }
+  .color.maroon { background-color: maroon; }
+  .color.lightblue { background-color: lightblue; }
+  .color.gold { background-color: gold; }
+  .color.khaki{ background-color: khaki; }
+  .color.salmon { background-color: salmon; }
+  .color.sienna { background-color: sienna; }
+  .color.slateblue { background-color: slateblue; }
+  .color.darkcyan{ background-color: darkcyan; }
